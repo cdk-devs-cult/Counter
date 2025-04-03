@@ -1,10 +1,9 @@
 import { useState } from "react";
 
 export default function Counter() {
-    let [count, setCount] = useState(0);
-    console.log(arr);
+    const [count, setCount] = useState(0);
 
-    let incCount = () => {
+    const incCount = () => {
         setCount(count + 1);
     };
 
